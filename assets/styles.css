@@ -94,19 +94,26 @@ sub {
   border-right:1px solid var(--line);
 }
 
-.identity {
+.identity,
+.identity-text {
   text-decoration:none;
   display:flex;
   flex-direction:column;
   align-items:flex-start;
 }
 
-.self-portrait {
+.portrait-link {
   display: block;
   width: 8.5rem;
   max-width: 100%;
-  height: auto;
   margin-bottom: 1.2rem;
+  cursor: zoom-in;
+}
+
+.self-portrait {
+  display: block;
+  width: 100%;
+  height: auto;
   border-radius: 4px;
 }
 
@@ -521,8 +528,7 @@ footer {
     column-gap:.9rem;
     align-items:center;
   }
-  .self-portrait {
-    grid-row:1/3;
+  .portrait-link {
     width:100%;
     margin:0;
   }
