@@ -68,6 +68,13 @@ h2 {
   letter-spacing: -.02em;
 }
 
+.paper-entry {
+  margin-top: 1rem;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  text-underline-offset: .18em;
+}
+
 a { color: inherit; }
 a:focus-visible { outline: 2px solid #394d69; outline-offset: 5px; }
 
