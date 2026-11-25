@@ -4,14 +4,14 @@ This static site is prepared for [nicolashung792/nicolashung792.github.io](https
 
 ## Preview the proposed changes
 
-Download or check out the `codex/academic-homepage` branch. From the site directory, run these commands with Node.js 20 or later.
+Check out the branch you want to preview. From the site directory, run these commands with Node.js 20 or later.
 
 ```sh
 node scripts/check.mjs
 node scripts/serve.mjs
 ```
 
-Open [the local preview](http://127.0.0.1:4173/). The check covers local links, anchors, image alternatives, and document structure. Try the main navigation with a keyboard and narrow the browser window to see the mobile layout. Visit a missing path to check the custom 404 page. Stop the preview with Ctrl+C.
+Open [the local preview](http://127.0.0.1:4173/). The check covers local links, anchors, image alternatives, and document structure. Open the portrait with a keyboard and check that the close control returns to the homepage. Visit a missing path to check the custom 404 page. Stop the preview with Ctrl+C.
 
 ## Publish
 
@@ -20,4 +20,4 @@ Open [the local preview](http://127.0.0.1:4173/). The check covers local links, 
 3. Select **main** and **/(root)**, then click **Save**. If these settings are already selected, the merge should trigger the deployment.
 4. Check the [Actions tab](https://github.com/nicolashung792/nicolashung792.github.io/actions) for a successful Pages deployment. Open [the homepage](https://nicolashung792.github.io/) and confirm that the title reads **Jingyi Huang | Mathematics**.
 
-Keep `index.html`, `404.html`, `.nojekyll`, and `assets/` in the publishing root. Future changes merged into the publishing branch will deploy automatically. If the first deployment fails, open its workflow log and verify the selected branch and folder. [GitHub Pages publishing-source documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+Keep `index.html`, `portrait.html`, `404.html`, `.nojekyll`, and `assets/` in the publishing root. Future changes merged into the publishing branch will deploy automatically. If the first deployment fails, open its workflow log and verify the selected branch and folder. [GitHub Pages publishing-source documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
